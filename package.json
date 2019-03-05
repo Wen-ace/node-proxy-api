@@ -1,0 +1,22 @@
+{
+  "name": "ming-emperor-node-server",
+  "version": "1.0.0",
+  "description": "明皇帝 node api 代理（java）应用",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "set port=8888 && supervisor ./src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.devmac.com/wenrj/ming-emperor-node-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}
